@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gia vị</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="/MiniMarket/CSS/List_Main.css">
+
+</head>
+<body>
+    <header></header>
+
+    <main>
+        <!-- List go here -->
+        <div class="container-fluid px-4">
+
+            <div class="row">
+
+                <div class="col-lg-1 "></div>
+                <!-- Left Menu/Accordion -->
+                <div class="col-lg-2 col-md-3 col-sm-12 left-container">
+
+                    <!-- Types of goods -->
+                    <!-- Fresh Food -->
+                    <div class="accordion" id="Left">
+
+                        <div class="accordion-item">
+
+                            <h2 class="accordion-header" id="Menu">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Đồ Tươi Sống
+                              </button>
+                            </h2>
+
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="Menu" data-bs-parent="#Left">
+                              <div class="accordion-body">
+                                
+                                <ul class="accordion-drop-text">
+
+                                    <li><a href="Meat.html">Thịt</a></li>
+
+                                    <li><a href="Seafood.html">Hải Sản</a></li>
+                                    
+                                </ul>
+
+                              </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <!-- Fresh Food ends here -->
+
+                    <div class="accordion" id="Left">
+
+                        <div class="accordion-item">
+
+                            <h2 class="accordion-header" id="Menu">
+                              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Thực Vật
+                              </button>
+                            </h2>
+
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="Menu" data-bs-parent="#Left">
+                              <div class="accordion-body">
+                                
+                                <ul class="accordion-drop-text">
+
+                                    <li><a href="Vegetables.html">Rau củ</a></li>
+
+                                    <li><a href="Fruits.html">Trái cây</a></li>
+                                    
+                                </ul>
+
+                              </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button type="button" class="btn btn-primary btn-lg btn-block left-button"><a href="Snacks.html">Bánh kẹo</a></button>
+                    <button type="button" class="btn btn-primary btn-lg btn-block left-button"><a href="Drinks.html">Đồ uống</a></button>
+                    <button type="button" class="btn btn-primary btn-lg btn-block left-button"><a href="Spices.html">Gia vị</a></button>
+                    <button type="button" class="btn btn-primary btn-lg btn-block left-button"><a href="Goods.html">Đồ dùng</a></button>
+
+                </div>
+
+                <!-- Right List -->
+                <div class="col-lg-8 col-md-9 col-sm-12 ">
+                    
+                    <!-- Row 1 -->
+                    <div class="row right-container g-2 ">
+
+                        <div class="col-lg-4 col-sm-4 p-2" >
+                            <div id="Goods">
+
+                                <img src="/MiniMarket/Assets/Goods/Spices/bot-ngot.jpg" alt="">
+                                <p><a href="#">Bột ngọt</a></p>
+                                <p id="Price">55.000 vnd</p>
+                                <button type="button" onclick="addToCart()" >Thêm vào giỏ</button>
+
+                            </div>
+                                
+                        </div>
+                        <div class="col-lg-4 col-sm-4 p-2" >
+                            <div id="Goods">
+                        
+                                <img src="/MiniMarket/Assets/Goods/Spices/dau-dau-nanh.png" alt="">
+                                <p><a href="#">Dầu đậu nành</a></p>
+                                <p id="Price">60.000 vnd</p>
+                                <button type="button" onclick="addToCart()" >Thêm vào giỏ</button>
+
+                            </div>
+                            
+                                
+                        </div>
+                        <div class="col-lg-4 col-sm-4 p-2" >
+                            <div id="Goods">
+
+                                <img src="/MiniMarket/Assets/Goods/Spices/hat-nem-aji-ngon.jpg" alt="">
+                                <p><a href="#">Hạt nêm Aji-ngon</a></p>
+                                <p id="Price">45.000 vnd</p>
+                                <button type="button" onclick="addToCart()" >Thêm vào giỏ</button>
+
+                            </div>
+                                
+                        </div>
+
+
+                    </div>
+                    <!-- Row 2 -->
+                    <div class="row right-container g-2 ">
+
+                        <div class="col-lg-4 col-sm-4 p-2" >
+                            <div id="Goods">
+
+                                <img src="/MiniMarket/Assets/Goods/Spices/hat-nem-chin-su.png" alt="">
+                                <p><a href="#">Hạt nêm Chin-su</a></p>
+                                <p id="Price">50.000 vnd</p>
+                                <button type="button" onclick="addToCart()" >Thêm vào giỏ</button>
+
+                            </div>
+                                
+                        </div>
+                        <div class="col-lg-4 col-sm-4 p-2" >
+                            <div id="Goods">
+                        
+                                <img src="/MiniMarket/Assets/Goods/Spices/muoi-cham-hao-hao.jpg" alt="">
+                                <p><a href="#">Muối chấm Hảo Hảo</a></p>
+                                <p id="Price">30.000 vnd</p>
+                                <button type="button" onclick="addToCart()" >Thêm vào giỏ</button>
+
+                            </div>
+                            
+                                
+                        </div>
+                        <div class="col-lg-4 col-sm-4 p-2" >
+                            <div id="Goods">
+
+                                <img src="/MiniMarket/Assets/Goods/Spices/nuoc-man.jpg" alt="">
+                                <p><a href="#">Nước mắm</a></p>
+                                <p id="Price">40.000 vnd</p>
+                                <button type="button" onclick="addToCart()" >Thêm vào giỏ</button>
+
+                            </div>
+                                
+                        </div>
+
+
+                    </div>
+
+                    <!-- Row 3 -->
+                    <div class="row right-container g-2 ">
+
+                        <div class="col-lg-4 col-sm-4 p-2" >
+                            <div id="Goods">
+
+                                <img src="/MiniMarket/Assets/Goods/Spices/nuoc-tuong-toi-ot.jpg" alt="">
+                                <p><a href="#">Nước tương tỏi ớt</a></p>
+                                <p id="Price">75.000 vnd</p>
+                                <button type="button" onclick="addToCart()" >Thêm vào giỏ</button>
+
+                            </div>
+                                
+                        </div>
+                        <div class="col-lg-4 col-sm-4 p-2" >
+                            <div id="Goods">
+                        
+                                <img src="/MiniMarket/Assets/Goods/Spices/sot-kewpie.jpg" alt="">
+                                <p><a href="#">Sốt kewpie</a></p>
+                                <p id="Price">65.000 vnd</p>
+                                <button type="button" onclick="addToCart()" >Thêm vào giỏ</button>
+
+                            </div>
+                            
+                                
+                        </div>
+                        <div class="col-lg-4 col-sm-4 p-2" >
+                            <div id="Goods">
+
+                                <img src="/MiniMarket/Assets/Goods/Spices/xot-mayonnaise.jpg" alt="">
+                                <p><a href="#">Sốt Mayonaise</a></p>
+                                <p id="Price">95.000 vnd</p>
+                                <button type="button" onclick="addToCart()" >Thêm vào giỏ</button>
+
+                            </div>
+                                
+                        </div>
+
+
+                    </div>
+
+                    <!-- Row 4 -->
+                    <div class="row right-container g-2 ">  
+
+                        <div class="col-lg-4 col-sm-4 p-2" >
+                            <div id="Goods">
+
+                                <img src="/MiniMarket/Assets/Goods/Spices/xot-mi-o-liu.jpg" alt="">
+                                <p><a href="#">Sốt mì olive</a></p>
+                                <p id="Price">105.000 vnd</p>
+                                <button type="button" onclick="addToCart()" >Thêm vào giỏ</button>
+
+                            </div>
+                                
+                        </div>
+
+                    </div>
+
+                    
+                </div>
+                <div class="col-lg-1 "></div>
+
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/MiniMarket/JS/List_Main.js" ></script>
+>
+</body>
+</html>

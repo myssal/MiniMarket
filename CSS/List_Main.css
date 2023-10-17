@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+.left-container{
+    background-color: gray;
+    border-radius: 5px;
+}
+
+.accordion{
+    margin-top: 10%;
+
+}
+
+#Menu .accordion-button{
+    color: rgb(28, 45, 0);
+}
+
+.accordion-drop-text li a{
+    text-decoration: none;
+    color: rgb(34, 55, 0);
+}
+
+.left-button{
+    width: 100%;
+    margin-top: 10%;
+    color: rgb(28, 45, 0);
+    background-color: black;
+    text-align: left;
+}
+
+.left-button:hover{
+    background-color: rgb(81, 195, 81);
+}
+.left-button a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: rgb(28, 45, 0);
+    
+}
+.left-button:last-child{
+    margin-bottom: 10%;
+}
+
+.right-container{
+
+    border: 1px solid rgb(181, 249, 78);
+    border-radius: 5px;
+
+
+}
+
+#Goods{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    border-color: rgb(147, 245, 0);
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: rgb(0, 79, 0) 0px 0px 6px 0px;   
+}
+
+#Goods:hover{
+    box-shadow: rgb(0, 174, 0) 0px 0px 6px 0px; 
+}
+
+#Goods img{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 2px;
+    object-fit: contain;
+    margin: auto;
+    display: block;
+}
+
+#Goods p a{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+    color: rgb(34, 55, 0);
+}
+
+#Goods p{
+    text-align: center ;
+
+}
+
+#Goods button{
+    display: block;
+    margin: auto;
+}
+
+.col-lg-4>div{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+button{
+    width: 70%;
+    border: 1px solid transparent;
+    transition: all ease 0.3s;
+    border-radius: 20px;
+    display: block;
+}
+button:hover{
+    color: #ffffff;
+    background-color: #40aa54;
+}
+
+
