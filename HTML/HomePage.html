@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siêu thị</title>
+    <link rel="stylesheet" type="text/css" href="/CSS/HomePage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+</head>
+<body>
+    <!-- header  -->
+    <div class="container-fluid navigation sticky-top">
+        <div class="row">
+            <div class="col-2 col-lg-2 col-md-3 col-sm-12">
+                <span class="logo">
+                    <a href="HomePage.html"><img src="/Assets/Misc/logo.png" alt=""></a>
+                </span>
+            </div>
+            <div class="col-4 search-bar col-sm-1 col-md-4 col-lg-4 ">
+                <input type="text" id="search-bar" placeholder="Search...">
+                <button type="submit">Search</button>
+            </div>
+            <div class="col-1 cart col-lg-1 col-md-1 ">
+                <a href="cart.html" class="cart-icon">
+                    <img src="/Assets/Misc/cart.png" alt="Cart">
+                </a>
+            </div>
+            <div class="col-1 col-lg-1 col-md-0"></div>
+            <div class="col-4 col-lg-4 col-md-3">
+                <ul class="menu">
+                    <div class="col-4 navl">
+                        <a href="#">Liên hệ</a>
+                    </div>   
+                    <div class="col-4 navl">
+                        <a href="Login.html">Đăng nhập</a>
+                    </div> 
+                    <div class="col-4 navl">
+                        <a href="Register.html">Đăng kí</a>
+                    </div> 
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!-- header  -->
+
+    <!-- carousel -->
+
+    
+    <div class ="second">
+        <!-- first carou -->
+        <div class="carousel-outer col-8">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/Assets/Misc/big_banner_-867x400px-_3-1--20231016035208.jpg" alt="Slide 1" class="img-fluid">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/Assets/Misc/867x400-20230403021044-20230406100546.jpg" alt="Slide 2" class="img-fluid">
+                    </div>
+                </div>
+
+                <span class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </span>
+
+                <span class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </span>
+            </div>
+        </div>
+        <!-- first carou -->
+
+        <!-- second carou -->
+        <div class="brand-carousel col-4 ">
+            <p>Đối tác</p>
+            <div id="brandCarousel" class="carousel slide" data-ride="carousel" data-interval="2000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/dutch-lady-20230227063547.jpg" alt="Brand 1" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/kinhdo-20230227064055.jpg" alt="Brand 2" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/5_heineken-20230227063603.jpg" alt="Brand 3" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/cocaco-20230227063859.jpg" alt="Brand 4" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/cp-20230227063939.jpg" alt="Brand 5" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/knorr-20230227063624.jpg" alt="Brand 6" class="img-fluid">
+                                </div>
+                            </div>                 
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/lifebouy-20230227063636.jpg" alt="Brand 7" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/maggi-20230227064702.jpg" alt="Brand 8" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/neptune-20230227064713.jpg" alt="Brand 9" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item ">
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/nescafe-20230227064724.jpg" alt="Brand 10" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/nestle-20230227064738.jpg" alt="Brand 11" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/OIP.jpg" alt="Brand 12" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/omo-20230227064750.jpg" alt="Brand 13" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/ong-tho-20230227064801.jpg" alt="Brand 14" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/orion-20230227064815.jpg" alt="Brand 15" class="img-fluid">
+                                </div>
+                            </div>                
+                        </div>
+                    
+                        <div class="row">
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/tiger-20230227063148.jpg" alt="Brand 16" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/ps-20230227064837.jpg" alt="Brand 17" class="img-fluid">
+                                </div>
+                            </div>
+                            <div class="col-4">
+                                <div class="brand-item">
+                                    <img src="/Assets/Misc/Brands/pepsi-20230227064827.jpg" alt="Brand 18" class="img-fluid">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+                <span class="carousel-control-prev2" href="#brandCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </span>
+                <span class="carousel-control-next2" href="#brandCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- second carou -->
+
+    <!-- carousel -->
+
+    <!-- nav2 -->
+    <div class="nav2 col-12">
+        <nav class="navbar">
+            <ul class="menu2">
+                <li><a href="#Sale">Khuyến mãi</a></li>
+                <li><a href="/HTML/Meat.html">Thịt - Hải sản tươi</a></li>
+                <li><a href="/HTML/Vegetables.html">Rau - Củ - Trái Cây</a></li>
+                <li><a href="/HTML/Snacks.html">Bánh Kẹo</a></li>
+                <li><a href="/HTML/Drinks.html">Đồ Uống</a></li>
+                <li><a href="/HTML/Spices.html">Gia Vị</a></li>
+                <li><a href="/HTML/Goods.html">Đồ Dùng</a></li>
+            </ul>
+        </nav>
+    </div>
+    <!-- nav2 -->
+
+    <!-- product -->
+
+    <!-- Sale -->
+    <div class="product">
+        <div class="product-wrapper col-12">
+            <div id="Sale">
+                <div class="product-heading">
+                    <h3>Hàng khuyến mãi</h3>
+                </div>
+                <div class="product-container">
+                    
+                    <div class="product-row">
+                        <div class="product-box">
+                            <li><img alt="bachiMy" src="/Assets/Goods/FreshFood/Meat/ba-chi-bo-my.jpg"></li>
+                            <li><strong>Ba chỉ bò Mỹ</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price"><span class="bprice">100000 vnd</span> 100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart</a>
+                            </li>
+                        </div>
+
+                        <div class="product-box">
+                            <li><img alt="lays" src="/Assets/Goods/Snacks/lay-stax.png"></li>
+                            <li><strong>Lays stax</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price"><span class="bprice">100000 vnd</span> 100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+
+                        <div class="product-box">
+                            <li><img alt="mayo" src="/Assets/Goods/Spices/xot-mayonnaise.jpg"></li>
+                            <li><strong>Mayonnaise</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price"><span class="bprice">100000 vnd</span> 100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <li><img alt="tao" src="/Assets/Goods/Plants/Fruits/tao.jpg"></li>
+                            <li><strong>Táo</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price"><span class="bprice">100000 vnd</span> 100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    </div>
+                </div>  
+            
+            
+                <div class="center-btn">
+                    <button class="small-button"><a href="#">Xem thêm</a></button>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Sale -->
+
+        <!-- Meat -->
+        <div class="product-wrapper">
+            <div id="Meat">
+                <div class="product-heading">
+                    <h3>Thịt - Hải sản tươi</h3>
+                </div>
+                <div class="product-container">
+                    <div class="product-row">
+                    
+                        <div class="product-box">
+                            <img alt="bachiMy" src="/Assets/Goods/FreshFood/Meat/ba-chi-bo-my.jpg">
+                            <li><strong>Ba chỉ bò Mỹ</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price"><span class="bprice">100000 vnd</span> 100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+
+                        <div class="product-box">
+                            <img alt="Bachtuoc" src="/Assets/Goods/FreshFood/Seafood/bach-tuoc-tuoi.jpg">
+                            <li><strong>Bạch tuộc tươi</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="boUc" src="/Assets/Goods/FreshFood/Meat/bo-uc-cat-lat.jpg">
+                            <li><strong>Bò úc cắt lát</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="gaHK" src="/Assets/Goods/FreshFood/Meat/ga-uop-xot-hong-kong.png">
+                            <li><strong>Gà xốt Hong Kong</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+
+                    </div>  
+                </div>
+            
+                <div class="center-btn">
+                    <button class="small-button"><a href="Meat.html">Xem thêm</a></button>
+                </div>
+
+            </div>
+        </div>
+        <!-- Meat -->
+
+        <!-- Vegetables -->
+        <div class="product-wrapper">
+            <div id="Vegetables">
+                <div class="product-heading">
+                    <h3>Rau - Củ - Trái cây tươi</h3>
+                </div>
+                <div class="product-container">
+                    <div class="product-row">
+                    
+                        <div class="product-box">
+                            <img alt="bido" src="/Assets/Goods/Plants/Vegetables/bi-do.jpeg">
+                            <li><strong>Bí đỏ</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="carot" src="/Assets/Goods/Plants/Vegetables/ca-tim.png">
+                            <li><strong>Cà rốt</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="kiwi" src="/Assets/Goods/Plants/Fruits/kiwi-xanh.png">
+                            <li><strong>Kiwi</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <li><img alt="tao" src="/Assets/Goods/Plants/Fruits/tao.jpg"></li>
+                            <li><strong>Táo</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price"><span class="bprice">100000 vnd</span> 100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+
+                    </div> 
+                </div>
+            
+                <div class="center-btn">
+                    <button class="small-button"><a href="Fruits.html">Xem thêm</a></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="product-wrapper">
+            <div id="Sweets">
+                <div class="product-heading">
+                    <h3>Bánh kẹo</h3>
+                </div>
+                <div class="product-container">
+                    <div class="product-row">
+                    
+                        <div class="product-box">
+                            <img alt="bonglan" src="/Assets/Goods/Snacks/banh-bong-lan.jpg">
+                            <li><strong>Bánh bông lan</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="banhgao" src="/Assets/Goods/Snacks/banh-gao-nhat.png">
+                            <li><strong>Bánh gạo Nhật</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="lays" src="/Assets/Goods/Snacks/lay-stax.png">
+                            <li><strong>Lays stax</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price"><span class="bprice">100000 vnd</span> 100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="lays" src="/Assets/Goods/Snacks/snicker.jpg">
+                            <li><strong>Snicker</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price"><span class="bprice">100000 vnd</span> 100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+
+                    </div>  
+                </div>
+            
+                <div class="center-btn">
+                    <button class="small-button"><a href="Snacks.html">Xem thêm</a></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="product-wrapper">
+            <div id="Drinks">
+                <div class="product-heading">
+                    <h3>Đồ uống</h3>
+                </div>
+                <div class="product-container">
+                    <div class="product-row">
+                    
+                        <div class="product-box">
+                            <img alt="7up" src="/Assets/Goods/Drinks/7up.png">
+                            <li><strong>7Up</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price"><span class="bprice">100000 vnd</span> 100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="tiger" src="/Assets/Goods/Drinks/bia-tiger.jpg">
+                            <li><strong>Bia Tiger</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="pepsi" src="/Assets/Goods/Drinks/Pepsi.png">
+                            <li><strong>Pepsi</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="THTEA" src="/Assets/Goods/Drinks/tra-xanh-vi-chanh.png">
+                            <li><strong>TH true Tea</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                
+                    </div>  
+                </div>
+            
+                <div class="center-btn">
+                    <button class="small-button"><a href="Snacks.html">Xem thêm</a></button>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="product-wrapper">
+            <div id="Spices">
+                <div class="product-heading">
+                    <h3>Gia vị</h3>
+                </div>
+                <div class="product-container">
+                    <div class="product-row">
+                    
+                        <div class="product-box">
+                            <img alt="botngot" src="/Assets/Goods/Spices/bot-ngot.jpg">
+                            <li><strong>Bột ngọt</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="soyoil" src="/Assets/Goods/Spices/dau-dau-nanh.png">
+                            <li><strong>Dầu đậu nành</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="mayo" src="/Assets/Goods/Spices/xot-mayonnaise.jpg">
+                            <li><strong>Mayonnaise</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price"><span class="bprice">100000 vnd</span> 100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="sotY" src="/Assets/Goods/Spices/xot-mi-o-liu.jpg">
+                            <li><strong>Xốt mì Ý</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                
+                    </div>  
+                </div>
+            
+                <div class="center-btn">
+                    <button class="small-button"><a href="Spices.html">Xem thêm</a></button>
+                </div>
+            </div>
+        </div>
+
+        <div class="product-wrapper">
+            <div id="Tools">
+                <div class="product-heading">
+                    <h3>Đồ dùng</h3>
+                </div>
+                <div class="product-container">
+                    <div class="product-row">
+                    
+                        <div class="product-box">
+                            <img alt="caylaunha" src="/Assets/Goods/Goods/bo-cay-xoay-lau-nha.jpg">
+                            <li><strong>Bộ cây lau nhà</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="noiinox" src="/Assets/Goods/Goods/bo-noi-inox.jpeg">
+                            <li><strong>Bộ nồi inox</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="moctreo" src="/Assets/Goods/Goods/moc-treo.jpg">
+                            <li><strong>Móc treo</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                    
+                        <div class="product-box">
+                            <img alt="pin" src="/Assets/Goods/Goods/pin-aaa.jpg">
+                            <li><strong>Pin AAA</strong></li>
+                            <li class="quantity">1 KG</li>
+                            <li class="price">100000 vnd</li>
+                            <li><a href="Shopping Cart HTML.html" class="cart-btn">
+                                Add to Cart
+                            </a></li>
+                        </div>
+                
+                    </div>  
+                </div>
+            
+                <div class="center-btn">
+                    <button class="small-button"><a href="Goods.html">Xem thêm</a></button>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+        <div class="footer"> 
+            <footer class="footer-container col-12">
+                <div class = "footer-links col-3">
+                    <img src= "/Assets/Misc/logo.png" alt="logo">
+                </div>
+                <div class="footer-links col-3">
+                    <ul>
+                        <li><strong>Sản phẩm</strong></li>
+                        <li><a href="Meat.html">Thịt-Hải sản</a></li>
+                        <li><a href="Vegetables.html">Rau-Củ-Quả</a></li>
+                        <li><a href="Snacks.html">Bánh kẹo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links col-3">
+                    <ul>
+                        <li><strong>Sản phẩm</strong></li>
+                        <li><a href="Drinks.html">Đồ uống</a></li>
+                        <li><a href="Spices.html">Gia vị</a></li>
+                        <li><a href="Goods.html">Đồ dùng</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links col-3">
+                    <ul>
+                        <li><strong>Contact</strong></li>
+                        <li><span>Điện thoại: 0123456789</span></li>
+                        <li><span>Email: abc@gmail.com</span></li>
+                        <li><span>Địa chỉ: Hà Nội </span></li>
+                    </ul>
+                </div>  
+            </footer>
+            <div class="copyright">
+                <br><p>Copyright ©2023 | All Rights Reserved</p>
+            </div>
+        </div>
+        <!-- Footer -->
+    </body>
+</html>

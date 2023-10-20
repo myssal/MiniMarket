@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:white ;
+
+}
+.boxdangky{
+    width: 445px;
+    height: 570px;
+    margin: auto;
+    background-color: #bdf0aa;
+    border-radius: 3px;
+    margin-top: 30px;
+    align-items: center;
+    background-image: linear-gradient(#00eacc,#00483f);
+}
+.boxdangnhap{
+    width:  450px;
+    height: 400px;
+    margin: auto;
+    background-color: #bdf0aa;
+    border-radius: 3px;
+    margin-top: 9.4em;
+    background-image: linear-gradient(#00eacc,#00483f);
+}
+h1{
+    text-align: center;
+    padding-top: 17px;
+    font-weight: 1200;
+    font-size: 40px;
+}
+h4{
+    text-align: center;
+    font-size: 33px;
+    color:white
+}
+form{
+    width: 330px;
+    margin-left: 42px;
+}
+form input{
+
+    width: 300px;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+input[type="button"]{
+    width: 300px;
+    height: 40px;
+    margin-top: 18px;
+    border: none;
+    font-size: 20px;
+    margin-left: 18px;
+    background-color: #66FF99;
+    color: white;
+}
+p{
+    text-align: center;
+    padding-top: 1px;
+    font-size: 15px;
+}
+.dongphu{
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+.dongphu a {
+    font-size: 18px;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.quenmk{
+    color: #ffffff;
+}
+.wheader{
+    color: #ffffff;
+}
+.thongbao{
+    color:#ffffff;
+}
