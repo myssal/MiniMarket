@@ -6,11 +6,12 @@
     padding: 0px;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    background-color: #F2E8CF;
 }
 
 
 .left-container{
-    background-color: gray;
+    background-color: #386641;
     border-radius: 5px;
 }
 
@@ -39,7 +40,11 @@
 .left-button:hover{
     background-color: rgb(81, 195, 81);
 }
+.left-button a:hover{
+    background-color: rgb(81, 195, 81);
+}
 .left-button a{
+    background-color: black ;
     text-decoration: none;
     font-size: 1rem;
     color: rgb(28, 45, 0);
@@ -50,14 +55,18 @@
 }
 
 .right-container{
-
+    background-color: #386641;
     border: 1px solid rgb(181, 249, 78);
     border-radius: 5px;
 
 
 }
+.col-lg-4{
+    background-color: #386641;
+}
 
 #Goods{
+    background-color: #A7C957;
     padding: 10px;
     border: 1px solid transparent;
     border-radius: 5px;
@@ -85,17 +94,19 @@
     text-decoration: none;
     font-size: large;
     font-weight: 500;
-    color: rgb(34, 55, 0);
+    color: rgb(27, 40, 7);
+    background-color: #A7C957;
 }
 
 #Goods p{
     text-align: center ;
-
+    background-color: #A7C957;
 }
 
 #Goods button{
     display: block;
     margin: auto;
+    background-color: #495b21;
 }
 
 .col-lg-4>div{
@@ -111,7 +122,7 @@ button{
 }
 button:hover{
     color: #ffffff;
-    background-color: #40aa54;
+    background-color: #012f09;
 }
 
 
