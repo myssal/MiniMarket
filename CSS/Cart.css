@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+.row .image img{
+    height: 100%;
+    width: 100%;
+    display: block;
+    object-fit: contain;
+    margin: 0 0 0 0;
+    border-radius: 5px;
+}
+button{
+    width: 70%;
+    border: 1px solid transparent;
+    transition: all ease 0.3s;
+    border-radius: 20px;
+    display: block;
+}
+button:hover{
+    color: #ffffff;
+    background-color: #40aa54;
+}
+
+.del-button{
+    margin-top: 290px;
+    margin-bottom: 0px;
+
+}
+.del-button button{
+    display: block;
+    margin: auto;
+}
+
+.right-container{
+    padding-left: 20px;
+    padding-top: 3%;
+    margin-left: 30px;
+    max-height: 400px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    border-color: rgb(147, 245, 0);
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: rgb(0, 79, 0) 0px 0px 6px 0px;
+}
+.right-container button{
+    display: block;
+    margin: auto;
+}
+.title{
+    font-size: 200%;
+    color: #40aa54;
+    font-weight: 700;
+}
+.quantity{
+    font-size: 130%;
+}
+.price{
+    font-size: 130%;
+}
+.left-good{
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    border-color: rgb(147, 245, 0);
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: rgb(0, 79, 0) 0px 0px 6px 0px;
+}
+.left-good:hover{
+    box-shadow: rgb(0, 174, 0) 0px 0px 6px 0px;
+}
+.right-icon{
+    align-content: center;
+}
+.delete-all{
+    padding-top: 5px;
+    padding-left: 58%;
+}
+
+.delete-all a{
+    color: #40aa54;
+}
+footer{
+    height: 45px;
+}
+header{
+    height: 60px;
+}
