@@ -1,11 +1,10 @@
 # MiniMarket
-##Trang web đơn giản về một siêu thị online nhỏ sử dụng HTML, CSS, JS.
-Thư viện sử dụng: Boostrap 5, JQuery
-##Thành viên: 
+## Trang web đơn giản về một siêu thị online nhỏ sử dụng HTML, CSS, JS.
+## Thành viên: 
     + Cao Trung Hiếu
     + Vũ Ngọc Tiến Minh
     + Nguyễn Văn Hậu
-##Demo về trang web:
+## Demo về trang web:
 +Trang chủ:
 ![Homepage ](Assets/Misc/Readme%20demo/Homepage.png)
 Giỏ hàng:
