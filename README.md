@@ -2,15 +2,12 @@
 Trang web đơn giản về một siêu thị online nhỏ sử dụng HTML, CSS, JS.
 Thư viện sử dụng: Boostrap 5, JQuery
 ---
-<<<<<<< HEAD
+
 Thành viên: 
     + Cao Trung Hiếu
     + Vũ Ngọc Tiến Minh
     + Nguyễn Văn Hậu
 =======
-permalink: (/index.html)
->>>>>>> 7e819089a9bf92a84db5ff68e369a2c0e9e70c51
----
 Demo về trang web:
 +Trang chủ:
 ![Homepage ](Assets/Misc/Readme%20demo/Homepage.png)
