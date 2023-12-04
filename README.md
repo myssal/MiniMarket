@@ -1,9 +1,6 @@
 # MiniMarket
 ## Trang web đơn giản về một siêu thị online nhỏ sử dụng HTML, CSS, JS.
-## Thành viên: 
-    + Cao Trung Hiếu
-    + Vũ Ngọc Tiến Minh
-    + Nguyễn Văn Hậu
+
 ## Demo về trang web:
 
 Trang chủ:
